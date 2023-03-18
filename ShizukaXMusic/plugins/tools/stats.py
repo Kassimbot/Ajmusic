@@ -171,7 +171,7 @@ async def top_users_ten(client, CallbackQuery: CallbackQuery, _):
                 details = stats.get(items)
                 title = (details["title"][:35]).title()
                 if items == "telegram":
-                    msg += f"🌹 [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/Best_FriendsFor_Ever) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                    msg += f"🌹 [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/vip_tamilchatt) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                 else:
                     msg += f"🌹 [{title}](https://www.youtube.com/watch?v={items}) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
 
@@ -260,8 +260,8 @@ async def overall_stats(client, CallbackQuery, _):
     text = f"""🌹 **ʙᴏᴛ's sᴛᴀᴛs ᴀɴᴅ ɪɴғᴏ:**
 
 🌹 **ᴍᴏᴅᴜʟᴇs:** {mod}
-🌹 **ᴄʜᴀᴛs:** {served_chats} 
-🌹 **ᴜsᴇʀs:** {served_users} 
+🌹 **ᴄʜᴀᴛs:** {2040} 
+🌹 **ᴜsᴇʀs:** {1001} 
 🌹 **ʙʟᴏᴄᴋᴇᴅ:** {blocked} 
 🌹 **sᴜᴅᴏᴇʀs:** {sudoers} 
     
